@@ -1,0 +1,8 @@
+[build]
+command = "npm run build"
+publish = "dist/"
+
+#[[redirects]]
+#from = "https://my-app.netlify.app/*"
+#to = "https://my-app.com/:splat"
+#force = true

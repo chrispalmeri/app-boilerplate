@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://my-app.com/sitemap.xml
