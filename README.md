@@ -45,9 +45,15 @@ screenshot.jpg             | no           | social
 
 .ico export = highest quality, compressed png
 
+48 ico could have some margin
+
   * filesize seems like main reason to specify 32 png instead
   * 32 png makes drag to desktop look dumb
   * 32 png will be scaled to 16 in several browsers if specified
+
+wanna axe browserconfig and mstile? kinda
+
+do you need maskable 192? or is 512 the one
 
 should manifest include everything?
 
@@ -62,5 +68,7 @@ https://github.com/h5bp/html5-boilerplate
 https://realfavicongenerator.net/favicon_compatibility
 
 https://material.io/design/iconography/product-icons.html#grid-and-keyline-shapes
+
+https://developer.android.com/google-play/resources/icon-design-specifications
 
 https://material.io/design/platform-guidance/android-icons.html#keyline-shapes
