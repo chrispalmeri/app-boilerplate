@@ -14,3 +14,8 @@ window.addEventListener('unload', function() {
     // write storage
     localStorage.setItem('position', JSON.stringify(state.position));
 });
+
+
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/worker.js');
+}
