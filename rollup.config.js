@@ -18,7 +18,7 @@ export default {
             transform: (contents) => {
                 return contents.toString()
                 .replace(/css\//g, '')
-                .replace(/img\//g, '')
+                .replace(/icon\//g, '')
                 .replace('type="module" src="js/main.js"', 'src="bundle.js"');
             }
         }]

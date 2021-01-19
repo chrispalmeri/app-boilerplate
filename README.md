@@ -51,6 +51,8 @@ screenshot.jpg             | no           | social
 
 do you need maskable 192? or is 512 the one
 
+android uses 512 everywhere with maskable any, amybe you need seperate 512's
+
 should manifest include everything?
 
 how to clear windows 10 icon cache?

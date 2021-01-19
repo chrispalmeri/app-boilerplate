@@ -7,8 +7,8 @@ const FILES_TO_CACHE = [
     'default.css',
     'bundle.js',
     'app.webmanifest',
-    '/img/android-chrome-192x192.png',
-    '/img/android-chrome-512x512.png'
+    '/icon/android-chrome-192x192.png',
+    '/icon/android-chrome-512x512.png'
 ];
 
 self.addEventListener('install', function(event) {
