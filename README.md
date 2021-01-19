@@ -21,7 +21,6 @@ Everything goes in the root when deployed
 file              | usage
 ---               | ---
 site.webmanifest  | needed for chrome
-browserconfig.xml | could not validate
 index.html        | title - works
 robots.txt        | search console
 sitemap.xml       | search console
@@ -37,7 +36,6 @@ android-chrome-maskable-192x192.png | no  | android homescreen
 android-chrome-512x512.png | yes          | android splash screen
 apple-touch-icon.png       | no           | iPhone, also firefox pinned site
 favicon.ico                | yes          | browser tab, IE11 Add site to Apps, chrome/edge recents, drag to desktop
-mstile-150x150.png         | yes          | could not validate
 safari-pinned-tab.svg      | yes          | safari
 screenshot.jpg             | no           | social
 
@@ -50,8 +48,6 @@ screenshot.jpg             | no           | social
   * filesize seems like main reason to specify 32 png instead
   * 32 png makes drag to desktop look dumb
   * 32 png will be scaled to 16 in several browsers if specified
-
-wanna axe browserconfig and mstile? kinda
 
 do you need maskable 192? or is 512 the one
 
