@@ -2,13 +2,13 @@
 
 const CACHE_NAME = 'whatever';
 const FILES_TO_CACHE = [
-    '/',
+    './',
     'index.html',
-    'default.css',
+    'css/default.css',
     'bundle.js',
     'app.webmanifest',
-    '/icon/android-chrome-192x192.png',
-    '/icon/android-chrome-512x512.png'
+    'icon/android-chrome-192x192.png',
+    'icon/android-chrome-512x512.png'
 ];
 
 self.addEventListener('install', function(event) {

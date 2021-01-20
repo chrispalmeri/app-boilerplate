@@ -70,3 +70,7 @@ https://material.io/design/iconography/product-icons.html#grid-and-keyline-shape
 https://developer.android.com/google-play/resources/icon-design-specifications
 
 https://material.io/design/platform-guidance/android-icons.html#keyline-shapes
+
+https://www.w3.org/TR/appmanifest/#icon-masks
+
+https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs

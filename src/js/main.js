@@ -17,5 +17,5 @@ window.addEventListener('unload', function() {
 
 
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/worker.js');
+    navigator.serviceWorker.register('worker.js');
 }
