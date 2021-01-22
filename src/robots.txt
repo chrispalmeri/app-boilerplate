@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://my-app.com/sitemap.xml
+Sitemap: https://app-boilerplate.netlify.app/sitemap.xml

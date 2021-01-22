@@ -14,7 +14,14 @@
 
 Everything goes in the root when deployed
 
-`Ctrl+H` for "My App" and "my-app"
+`Ctrl+H` for "My App" and "app-boilerplate"
+
+Nice http-server also uses the 404.html
+
+## To do
+
+  * axe the safari pinned tab svg?
+  * try using an svg favicon? what would windows do with that?
 
 ## Files
 
