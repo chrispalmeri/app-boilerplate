@@ -5,22 +5,22 @@ import copy from 'rollup-plugin-copy';
 export default {
     input: 'src/js/main.js',
     output: {
-        file: 'dist/bundle.js',
+        file: 'dist/js/bundle.js',
         format: 'cjs'
     },
-    plugins: [copy({
-        targets: [{
-            src: ['src/css/*', 'src/icon/*', 'src/img/*', 'src/meta/*', 'src/*.ico'],
-            dest: 'dist'
-        }, {
-            src: ['src/*.html', 'src/*.webmanifest', 'src/*.xml', 'src/*.js'],
-            dest: 'dist',
-            transform: (contents) => {
-                return contents.toString()
-                .replace(/css\//g, '')
-                .replace(/icon\//g, '')
-                .replace('type="module" src="js/main.js"', 'src="bundle.js"');
-            }
-        }]
-    })]
+    plugins: [
+        copy({
+            targets: [{
+                src: ['src/*', '!src/js/**', '!src/*.html'],
+                dest: 'dist'
+            }, {
+                src: 'src/*.html',
+                dest: 'dist',
+                transform: (contents) => contents.toString().replace(
+                    'type="module" src="js/main.js"',
+                    'src="js/bundle.js"'
+                )
+            }]
+        })
+    ]
 };
