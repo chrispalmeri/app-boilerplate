@@ -22,6 +22,9 @@ Nice http-server also uses the 404.html
 
   * axe the safari pinned tab svg?
   * try using an svg favicon? what would windows do with that?
+  * add your css colors to this
+  * utilities?
+  * components?
 
 ## Files
 
@@ -95,3 +98,5 @@ https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-mo
 https://github.com/GoogleChromeLabs/airhorn/blob/master/app/manifest.json
 
 https://github.com/GoogleChrome/lighthouse/issues/291
+
+https://web.dev/offline-cookbook/#stale-while-revalidate
