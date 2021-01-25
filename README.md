@@ -20,7 +20,9 @@ Nice http-server also uses the 404.html
 
 ## To do
 
-  * axe the safari pinned tab svg?
+  * test storage onpagehide
+  * prune the example js modules
+  * cleanup notes
   * try using an svg favicon? what would windows do with that?
   * add your css colors to this
   * utilities?
@@ -46,7 +48,6 @@ android-chrome-maskable-192x192.png | no  | android homescreen, never splashscre
 android-chrome-512x512.png | yes          | android splash screen
 apple-touch-icon.png       | no           | iPhone, also firefox pinned site
 favicon.ico                | yes          | desktop browser tab, IE11 Add site to Apps, start menu, chrome/edge recents, drag to desktop
-safari-pinned-tab.svg      | yes          | old? safari
 screenshot.jpg             | no           | social
 
 ## Notes
@@ -73,6 +74,13 @@ webpage background color
 
 Did not include 512 maskable then, because theoretically only the splash screen
 needs an icon that large, and it would never pick maskable
+
+icon margins are consistent, if not any kind of standard
+
+Not included cause as far as I can tell are reasonably outdated:
+
+  * browserconfig and any mstile images
+  * safari pinned tab svg
 
 
 refresh windows 10 icons with Start > Run > `ie4uinit.exe -show`

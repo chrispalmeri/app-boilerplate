@@ -10,7 +10,7 @@ const FILES_TO_CACHE = [
     './',
     'index.html',
     'css/default.css',
-    'js/bundle.js', // this doesn't work with 'npm run local', only mock
+    'js/bundle.js', // FIXME this doesn't work with 'npm run local', only mock
     'app.webmanifest',
     'img/android-chrome-192x192.png',
     'img/android-chrome-512x512.png'
