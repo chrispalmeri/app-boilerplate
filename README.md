@@ -18,7 +18,6 @@ Nice http-server also uses the 404.html
 
 ## To do
 
-  * add font preloading like unrowdy password
   * test storage onpagehide
   * prune the example js modules
   * script should be in head and still module after build probably
@@ -32,6 +31,8 @@ Nice http-server also uses the 404.html
 https://stackoverflow.com/questions/40682848/how-to-clean-delete-contents-folder-with-npm
 
 Also sitemap has to be manually updated
+
+https://stackoverflow.com/questions/66559704/firefox-shows-warnings-on-preload-fonts-although-they-are-used-within-the-first
 
 ## Files
 

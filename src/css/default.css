@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "Rubik";
+	src: url('../font/Rubik-Regular.subset.woff2') format('woff2');
+	font-weight: normal;
+	font-display: swap;
+}
 p {
+	font-family: 'Rubik', sans-serif;
 	color: #222;
 }
