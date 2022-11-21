@@ -12,17 +12,18 @@
 
 `npm run mock`
 
-Everything goes in the root when deployed
-
 `Ctrl+H` for "My App" and "app-boilerplate"
 
 Nice http-server also uses the 404.html
 
 ## To do
 
+  * add font preloading
   * test storage onpagehide
   * prune the example js modules
+  * script should be in head and still module after build probably
   * cleanup notes
+  * why was canonical commented out?
   * try using an svg favicon? what would windows do with that?
   * add your css colors to this
   * utilities?
@@ -59,7 +60,7 @@ screenshot.jpg             | no           | social
   * 32 png will be scaled to 16 in several browsers if specified
 
 when you click install, Android Chrome picks the maskable icon, but then if you
-are not signed into chrome, it won't install and falls back to  just add a
+are not signed into chrome, it won't install and falls back to just add a
 shortcut to your homescreen, which will be the maskable icon but on a white circle
 
 I also suspect chrome picks the maskable icon without even knowing whether your
