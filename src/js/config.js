@@ -1,5 +1,5 @@
 // config.js
 
 export default {
-    position: 87.9,
+	position: 87.9,
 };

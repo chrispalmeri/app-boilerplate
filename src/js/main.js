@@ -12,11 +12,11 @@ state.init('position');
 
 // need to test this works as expected vs old 'unload'
 window.addEventListener('pagehide', function() {
-    // write storage
-    localStorage.setItem('position', JSON.stringify(state.position));
+	// write storage
+	localStorage.setItem('position', JSON.stringify(state.position));
 });
 
 
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('worker.js');
+	navigator.serviceWorker.register('worker.js');
 }

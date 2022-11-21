@@ -1,13 +1,13 @@
 {
-    "private": true,
-    "scripts": {
-        "build": "rollup -c",
-        "local": "http-server src -c-1 -o",
-        "mock": "npm run build && http-server dist -c-1 -o"
-    },
-    "devDependencies": {
-        "http-server": "^0.12.3",
-        "rollup": "^2.36.1",
-        "rollup-plugin-copy": "^3.3.0"
-    }
+	"private": true,
+	"scripts": {
+		"build": "rollup -c",
+		"local": "http-server src -c-1 -o",
+		"mock": "npm run build && http-server dist -c-1 -o"
+	},
+	"devDependencies": {
+		"http-server": "^0.12.3",
+		"rollup": "^2.36.1",
+		"rollup-plugin-copy": "^3.3.0"
+	}
 }
