@@ -1,4 +1,4 @@
-// worker.js
+// serviceworker.js
 
 // what if network returns 304 not modified, netlify does that
 // should be fine https://github.com/w3c/ServiceWorker/issues/412
@@ -16,7 +16,7 @@ const FILES_TO_CACHE = [
 	'img/android-chrome-512x512.png'
 ];
 
-// happens whenever worker.js has changed
+// happens whenever serviceworker.js has changed
 // add all the files to cache that are needed before activating
 self.addEventListener('install', function(event) {
 	event.waitUntil(

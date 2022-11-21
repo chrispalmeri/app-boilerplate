@@ -41,7 +41,7 @@ site.webmanifest  | needed for chrome
 index.html        | title - works
 robots.txt        | search console
 sitemap.xml       | search console
-worker.js         | needed to be installable
+serviceworker.js  | needed to be installable
 404.html          | netlify
 
 ## Images
